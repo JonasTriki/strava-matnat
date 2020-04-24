@@ -19,6 +19,21 @@ function App() {
             scrolling='no' />
         ))}
       </div>
+      <footer>
+        Laget med <span role="img" aria-label="flexed-biceps">💪🏻</span> av <a
+          className="footer"
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://github.com/JonasTriki">
+            Jonas Triki
+          </a>. Kildekoden finner du på <a
+            className="footer"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/JonasTriki/strava-matnat">
+              GitHub
+          </a>.
+      </footer>
     </div>
   );
 }

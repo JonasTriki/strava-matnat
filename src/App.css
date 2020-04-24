@@ -1,12 +1,41 @@
 .App {
-  height: 100%;
-  padding: 2rem;
+  flex: 1;
 }
 
 .clubs {
+  padding: 2rem;
+  min-height: calc(100% - 4rem);
   text-align: center;
 }
 
 .club {
   padding: 1rem;
+}
+
+footer {
+  padding: 1rem;
+  background: #FC6100;
+  color: white;
+  text-align: center;
+}
+
+a.footer {
+  text-decoration: none;
+}
+
+a.footer:link {
+  color: white;
+}
+
+a.footer:visited {
+  color: white;
+}
+
+a.footer:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+a.footer:active {
+  color: white;
 }
