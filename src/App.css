@@ -1,0 +1,12 @@
+.App {
+  height: 100%;
+  padding: 2rem;
+}
+
+.clubs {
+  text-align: center;
+}
+
+.club {
+  padding: 1rem;
+}
